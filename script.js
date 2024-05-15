@@ -1,15 +1,15 @@
 // Exercise 3 - for loop
 // single loop
 let result1 = "";
-for (i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
 	result1 += "* ";
 	console.log(result1);
 }
 
 // nested loop
 let result2 = "";
-for (j = 0; j < 5; j++) {
-	for (k = 0; k < 1; k++) {
+for (let j = 0; j < 5; j++) {
+	for (let k = 0; k < 1; k++) {
 		result2 += "* ";
 		console.log(result2);
 	}
